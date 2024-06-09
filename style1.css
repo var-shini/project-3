@@ -1,0 +1,156 @@
+body {
+    background-image: url('website background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px 0 0 0;
+    
+    
+}
+
+header {
+    
+    padding: 2relative;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    padding:100px 0 0 0;
+    font-size: 2rem; /* Increase font size */
+    color: #D4EBD0;
+    padding: 2rem 0; 
+
+}
+header nav ul li a {
+    color: #A8D7F7; /* Change the color as needed */
+     font-size: larger;
+     font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#about h2{
+    color:#FFFAA4 ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#about p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 1.8; /* Increase line height for better readability */
+    width :70%;
+    text-align : center;
+    color:rgba(255, 255, 255, 0.944)
+}
+#projects h2{
+    color:#FFFAA4 ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#projects h3{
+    color:#D4EBD0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#projects p{
+    color:#D4EBD0 ;
+   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#contact h2{
+    color:#FFFAA4 ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#social h2{
+    color:#FFFAA4 ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+
+#projects ul li  p  {
+    list-style: circle;
+    font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 1.8; /* Increase line height for better readability */
+    width :70%;
+    text-align : center;
+    color:rgba(255, 255, 255, 0.944)
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #C39898;
+    text-decoration: none;
+}
+
+h2 {
+    padding-bottom: 1rem; /* Increase padding */
+}
+
+footer {
+    color: #b0c838;
+    text-align: center;
+    padding: 1rem 0; /* Increase padding */
+    position: relative;
+    bottom: 0;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+    
+    footer {
+        position: relative;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover {
+    color:#006769;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#social a {
+    display: block;
+    margin: 0.5rem 0; /* Adjust vertical margin */
+    font-size: 1.2rem; /* Increase font size */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profile-image {
+    position: absolute;
+    top: 75px; /* Adjust top position as needed */
+    /* Adjust right position as needed */
+     /* Adjust height of the circle as needed */
+    border: 3px solid #E49BFF; 
+    border-radius: 1%;
+    margin-left: 75%;
+ /*   border-radius: 50%; Creates a circle*/
+}
+
+.profile-image img {
+    width: 100%;
+   
+    display: block;
+}
+
